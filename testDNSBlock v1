@@ -1,5 +1,5 @@
 function TestDNSBlock {
-    $nicName = "Ethernet 3"  # Change this to the name of your NIC
+    $nicName = "Ethernet 3"
     $domainToTest = "malware.testcategory.com"
 
     Write-Host "Getting DNS server addresses for $nicName..."
@@ -29,5 +29,4 @@ function TestDNSBlock {
     }
 }
 
-# Call the function
 TestDNSBlock
